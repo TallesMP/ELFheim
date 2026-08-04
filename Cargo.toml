@@ -1,0 +1,11 @@
+[package]
+name = "elfheim"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base64 = "0.22"
+clap = { version = "4.6.5", features = ["derive"] }
+rand = "0.8"
+rsa = { version = "0.9.10", features = ["pem"] }
+sha2 = { version = "0.10", features = ["oid"] }
